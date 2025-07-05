@@ -1,0 +1,88 @@
+body
+{
+        background: linear-gradient(35deg, rgba(102, 7, 0, 1) 0%, rgba(179, 0, 0, 1) 50%, rgba(255, 0, 0, 1) 100%);
+
+}
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 30px;
+    position:relative;
+    background: rgba(21, 18, 18, 0.417);
+    color: white;
+
+    border-radius: 15px;
+  }
+
+  h2 {
+    font-size: 34px;
+    text-align: center;
+  }
+  
+
+  
+
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+button
+{
+        background:rgb(234, 234, 234);
+            color: rgb(255, 0, 0);
+            border: none;
+            padding: 12px 5px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 50%;
+            position: relative;
+            left: 200px;
+            bottom: -10px;
+                        transition: all 0.5s ease;
+
+}
+button:hover
+{
+ background: #050000;
+        transform: translateX(10px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        color: white;
+        
+}
+img
+{
+    width: 200px;
+    height: auto;
+    position:absolute ;
+    bottom:10px;
+    left: 1140px;
+    
+}
+  

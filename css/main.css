@@ -1,0 +1,17 @@
+*
+{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    
+}
+.title
+{
+  text-align: center;
+            font-size: 60px;
+            color: white;
+            font-family: "Mystery Quest", system-ui;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+            margin: 30px;
+
+}

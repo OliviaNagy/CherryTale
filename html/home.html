@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Imagination</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navbar"></div>
+
+    <div class="hero">
+      <div class="text">
+        <h1>CherryTale</h1>
+        <p>
+          Join million of players to create your own imaginary world whith
+          CherryTale characters
+        </p>
+        <a href="#" class="ctaa"><i class="ri-play-fill">watch tutorial </i></a>
+      </div>
+      <div class="character">
+        <img src="/images/fairy.png" />
+      </div>
+    </div>
+    <script>
+ fetch("/navbar.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("navbar").innerHTML = data;
+      }); </script> </body>
+</html>

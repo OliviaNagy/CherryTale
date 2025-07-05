@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <link rel="stylesheet" href="/css/about.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+     <div class="container">
+        <img src="/images/flowers.png" class="rotate">
+
+    <p>Welcome to Cherrytale!
+Cherrytale is more than just a game,it's a magical journey through a world of imagination, adventure, and wonder. Designed with love and creativity, Cherrytale invites players of all ages to explore vibrant lands, solve exciting challenges, and uncover the secrets hidden beneath the cherry trees.
+
+</p>
+<img src="/images/flowers.png">
+
+</div>
+         <script>
+ fetch("/navbar.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("navbar").innerHTML = data;
+      }); </script> 
+
+
+
+</body>
+</html>

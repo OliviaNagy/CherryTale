@@ -1,0 +1,46 @@
+
+      .container {
+        height: 450px;
+        width: 1000px;
+        margin: 30px;
+        margin-left: 180px;
+        border-radius: 40px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+      }
+      
+    
+    
+ p {
+        color: white;
+        font-size: 30px;
+        line-height: 1.5;
+        flex: 1;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        padding:70px ;
+
+      }
+
+    body
+    {
+        background: linear-gradient(35deg, rgba(102, 7, 0, 1) 0%, rgba(179, 0, 0, 1) 50%, rgba(255, 0, 0, 1) 100%);position:relative;
+
+    }
+
+
+
+img{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 180px;
+}
+.rotate
+{
+     position: absolute;
+    top: 140px;
+    left: 980px;
+     transform: rotate(180deg);
+}
