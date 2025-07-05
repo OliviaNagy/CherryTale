@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-     <link rel="stylesheet" href="/css/levels.css" />
-    <link rel="stylesheet" href="/css/main.css" />
+     <link rel="stylesheet" href="../css/levels.css" />
+    <link rel="stylesheet" href="../css/main.css" />
 </head>
 <body>
      <div id="navbar"></div>
@@ -15,8 +15,8 @@
         <h2>1</h2>
         <h3>Cherry Garden</h3>
         <h4>Begin your magical journey in the peaceful Cherry Garden. Learn the basics of magic and collect your first cherries.</h4>
-        <img src="/images/cherry.png">
-                        <img src="/images/cherry.png" class="r">
+        <img src="../images/cherry.png">
+                        <img src="../images/cherry.png" class="r">
 
         <button>play now</button>
     </p>
@@ -27,8 +27,8 @@
         <h2>2</h2>
         <h3>Foxy's Domain </h3>
         <h4>Enter Foxy's magical realm where gravity defies logic. Master the art of flying to collect aerial cherries.</h4>
-                <img src="/images/cherry.png">
-                <img src="/images/cherry.png" class="r">
+                <img src="../images/cherry.png">
+                <img src="../images/cherry.png" class="r">
 
         <button>play now</button>
     </p>
@@ -39,8 +39,8 @@
         <h2>3</h2>
         <h3>Beauty's Hair Maze</h3>
         <h4>Navigate through Mrs. Beauty's ever-changing hair maze. Use her magical hair sticks to unlock new paths.</h4>
-                <img src="/images/cherry.png">
-                <img src="/images/cherry.png" class="r">
+                <img src="../images/cherry.png">
+                <img src="../images/cherry.png" class="r">
 
         <button>play now</button>
     </p>
@@ -51,8 +51,8 @@
         <h2>4</h2>
         <h3>Abcareno's Lab</h3>
         <h4>Solve complex puzzles in Mr. Abcareno's magical laboratory with Miss Glassy's help.</h4>
-                <img src="/images/cherry.png">
-                <img src="/images/cherry.png" class="r">
+                <img src="../images/cherry.png">
+                <img src="../images/cherry.png" class="r">
 
         <button>play now</button>
     </p>
@@ -63,15 +63,15 @@
         <h2>5</h2>
         <h3>Ninja's Dojo</h3>
         <h4>Train with Mr. Jinjo in his secret dojo. Master the way of the sword and cherry magic.</h4>
-                <img src="/images/cherry.png">
-                <img src="/images/cherry.png" class="r">
+                <img src="../images/cherry.png">
+                <img src="../images/cherry.png" class="r">
 
         <button>play now</button>
     </p>
 
 </div>
 <script>
-  fetch('/navbar.html')
+  fetch('../navbar.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('navbar').innerHTML = data;

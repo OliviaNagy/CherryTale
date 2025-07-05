@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-        <link rel="stylesheet" href="/css/main.css" />
-                <link rel="stylesheet" href="/css/contact.css" />
+        <link rel="stylesheet" href="../css/main.css" />
+                <link rel="stylesheet" href="../css/contact.css" />
 
 
 </head>
@@ -33,14 +33,14 @@
       <button type="submit">Send </button>
       </div>
     </form>
-        <img src="/images/fairy.png"/>
+        <img src="../images/fairy.png"/>
 
   </div>
 
 
 
 <script>
-  fetch('/navbar.html')
+  fetch('../navbar.html')
     .then(response => response.text())
     .then(data => {
       document.getElementById('navbar').innerHTML = data;
